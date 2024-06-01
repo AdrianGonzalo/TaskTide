@@ -7,6 +7,11 @@ title.setText('TASK TIDE')
 // title.style.border = "2px solid rgba(104, 48, 48, 1)";
 title.onClick(() => alert('Ready to start managing your tasks? :)'))
 
+// const square1 = new Heading
+// square1.addClass('Square1')
+// title.add(square1)
+
+
 const registerForm = new RegisterForm
 registerForm.addClass('RegisterForm')
 // registerForm.onRegistered(() => setTimeout(() => location.href = '../login', 1000))

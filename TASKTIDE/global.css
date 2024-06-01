@@ -5,8 +5,7 @@
     --second-color: rgba(222, 79, 79);     /* Rojo titulo */
     --third-color:  rgba(76, 107, 112);     /* Verde Label */
     --fourth-color: rgba(204, 205, 195);   /* Hueso Input */
-    --fifth-color:  black;
-
+    --fifth-color:  rgba(104, 48, 48, 1);
 }
 
 *{
