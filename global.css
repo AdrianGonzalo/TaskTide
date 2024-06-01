@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+:root{
+    --first-color:  rgba(233, 234, 230);     /* Blanco registro */
+    --second-color: rgba(222, 79, 79);     /* Rojo titulo */
+    --third-color:  rgba(76, 107, 112);     /* Verde Label */
+    --fourth-color: rgba(204, 205, 195);   /* Hueso Input */
+    --fifth-color:  black;
+
+}
+
+*{
+    font-family: Rowdies;
+    font-size: 20px;
+}
