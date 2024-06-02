@@ -1,15 +1,15 @@
-/* .FormWithFeedback{
+.FormWithFeedback{
 
     text-align: center;
     width: 400px;
 }
 
 
-.FormWithFeedback .Input {
+/* .FormWithFeedback .Input {
     background-color:var(--fourth-color);
     font-size: 1rem;
     width: 300px;
-}
+} */
 
 .FormWithFeedback .Feedback{
     color: red;
@@ -17,4 +17,4 @@
 
 .FormWithFeedback .Feedback.success{
     color: green;
-} */
+}

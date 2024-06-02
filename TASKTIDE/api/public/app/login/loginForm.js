@@ -4,15 +4,32 @@ class LoginForm extends FormWithFeedback{
 
         this.addClass('LoginForm')
 
-        const usernameField = new Field('username', 'text', 'Username')
+        const loginTitle = new Heading(1)
+        loginTitle.addClass('LoginTitle')
+        loginTitle.setText('LOGIN')
 
-        const passwordField = new Field('password', 'password', 'Password')
+        const usernameField = new Field('username', 'text', 'USERNAME')
 
-        const submitButton = new SubmitButton('Login')
+        const passwordField = new Field('password', 'password', 'PASSWORD')
 
+        const submitButton = new SubmitButton('LOGIN')
+        submitButton.addClass('FormButton')
+
+
+        const loginLink = new Link
+        loginLink.addClass('LoginLink')
+        loginLink.setText('REGISTER')
+        loginLink.onClick(event => {
+            event.preventDefault()
+
+            setTimeout(() => location.href = '../register', 1000)
+        })
+
+        this.add(loginTitle)
         this.add(usernameField)
         this.add(passwordField)
         this.add(submitButton)
+        this.add(loginLink)
         
         this.onSubmit(event => {
             event.preventDefault()
