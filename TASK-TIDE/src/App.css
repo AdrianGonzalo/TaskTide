@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+:root{
+    --first-color:rgba(222, 79, 79, 1);
+    --second-color: rgba(104, 48, 48, 1);
+    --third-color: rgba(76, 107, 112, 1);
+    --fourth-color: rgba(233, 234, 230, 1);
+    --fifth-color: rgba(204, 205, 195, 1);
+    --sixth-color: rgba(191, 189, 163, 0.8);
+}
+
+*{
+    font-family: "Rowdies";
+    font-weight: 400;
+    font-style: normal;
+
+
+    /* .rowdies-light {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      } */
+      
+      /* .rowdies-regular {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      } */
+      
+      /* .rowdies-bold {
+        font-family: "Rowdies", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      } */
+}
