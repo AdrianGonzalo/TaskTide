@@ -1,0 +1,16 @@
+.Title_h1{
+    text-align: center;
+    font-size: 5.5rem;
+    color: var(--first-color);
+
+
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 var(--second-color); /* Color del borde */
+}
+
+/* .Title_h1>h1{
+    border: 5px solid var(--second-color);
+} */
