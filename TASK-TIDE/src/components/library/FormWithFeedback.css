@@ -1,14 +1,17 @@
 .FormWithFeedback{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
     text-align: center;
-    width: 400px;
+    width: 600px;
 }
 
 
 .FormWithFeedback .Input {
-    background-color:var(--fourth-color);
+    background-color:var(--fifth-color);
     font-size: 1rem;
-    width: 300px;
+    width: 450px;
 }
 
 /* .FormWithFeedback .Feedback{

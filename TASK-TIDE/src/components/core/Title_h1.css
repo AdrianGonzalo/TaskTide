@@ -1,14 +1,14 @@
 .Title_h1{
     text-align: center;
-    font-size: 5.5rem;
+    font-size: 7rem;
     color: var(--first-color);
 
 
     text-shadow: 
-        -2px -2px 0 #000,  
-         2px -2px 0 #000,
-        -2px  2px 0 #000,
-         2px  2px 0 var(--second-color); /* Color del borde */
+        -3px -3px 0 var(--second-color),  
+         3px -3px 0 var(--second-color),
+        -3px  3px 0 var(--second-color),
+         3px  3px 0 var(--second-color); /* Color del borde */
 }
 
 /* .Title_h1>h1{

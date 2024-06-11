@@ -16,8 +16,9 @@ function App() {
 
   const [view, setView] = useState('login')
 
-  return <View tag='main'>
-    
+  return <>
+    {view === 'register' && <View tag='main'>
+
       <Title_h1>TASK TIDE</Title_h1>
 
       <FormWithFeedback className="Form FormWithFeedback RegisterForm">
@@ -31,11 +32,38 @@ function App() {
 
         <Field id='repeatPassword' >REPEAT PASSWORD</Field>
 
-        <SubmitButton>Register</SubmitButton>
+        <SubmitButton>REGISTER</SubmitButton>
 
         <Link href="" className="Link">LOGIN</Link>
       </FormWithFeedback>
-  </View>
+    </View>}
+
+    {view === 'login' && <View tag='main'>
+
+      <Title_h1>TASK TIDE</Title_h1>
+
+      <FormWithFeedback className="Form FormWithFeedback RegisterForm">
+        <Title_h2>LOGIN</Title_h2>
+
+        <Field id='username' >USERNAME</Field>
+
+        <Field id='password' >PASSWORD</Field>
+
+        <SubmitButton>LOGIN</SubmitButton>
+
+        <Link href="" className="Link">REGISTER</Link>
+      </FormWithFeedback>
+    </View>}
+
+    {view === 'home' && <View tag='main'>
+
+      <Title_h1>TASK TIDE</Title_h1>
+
+      <View tag='main'></View>
+
+      <footer></footer>
+    </View>}
+  </>
 }
 
 export default App
